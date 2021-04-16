@@ -20,6 +20,7 @@ source=("http://snapshot.debian.org/archive/debian/20190901T090537Z/pool/main/l/
         "${pkgname}.8.diff"
         "${pkgname}.config.diff"
         "locale.nopurge")
+depends=('gettext' 'sysfsutils')
 
 prepare()
 {
