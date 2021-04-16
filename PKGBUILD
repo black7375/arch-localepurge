@@ -3,6 +3,10 @@
 # Contributor: Francesco Groccia <frgroccia gmail.com>
 # Contributor: Dincer Celik <dincer@bornovali.com>
 
+# pkgver=0.7.3.10
+# source http://httpredir.debian.org/debian/pool/main/l/localepurge/${pkgname}_${pkgver}.tar.xz
+# sha256sum 56b08640f46d6ebf20b2d535e5ba54d062de70c8f2aadf5a5c665b6007f7f6e2
+
 pkgname=localepurge
 pkgver=0.7.3.8
 pkgrel=0
@@ -11,7 +15,7 @@ arch=('any')
 url="http://packages.debian.org/source/sid/localepurge"
 license=('GPL')
 backup=('etc/locale.nopurge')
-source=("http://httpredir.debian.org/debian/pool/main/l/localepurge/${pkgname}_${pkgver}.tar.xz"
+source=("http://snapshot.debian.org/archive/debian/20190901T090537Z/pool/main/l/localepurge/localepurge_0.7.3.8.tar.xz"
         "${pkgname}.diff"
         "${pkgname}.8.diff"
         "${pkgname}.config.diff"
